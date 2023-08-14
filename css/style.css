@@ -25,13 +25,6 @@ ul {
   margin: 0 auto;
 }
 /* End Golbal Rules */
-.parent {
-  width: 550px;
-  max-width: 100%;
-  margin: 20px auto;
-  background-color: #FFF;
-  box-shadow: 0 0px 10px #000;
-}
 /* Start Components */
 .main-heading {
   width: fit-content;
@@ -59,6 +52,13 @@ ul {
   right: -90px;
 }
 /* End Components */
+.parent {
+  width: 550px;
+  max-width: 100%;
+  margin: 20px auto;
+  background-color: #FFF;
+  box-shadow: 0 0px 10px #000;
+}
 /* Start Category */
 .category {
   padding-top: var(--section-padding);
