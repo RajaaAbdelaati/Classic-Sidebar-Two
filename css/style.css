@@ -19,13 +19,15 @@ ul {
   list-style: none;
 }
 .container {
+  width: 500px;
+  max-width: 100%;
   padding: 0 15px;
   margin: 0 auto;
-  width: 500px;
 }
 /* End Golbal Rules */
 .parent {
   width: 550px;
+  max-width: 100%;
   margin: 20px auto;
   background-color: #FFF;
   box-shadow: 0 0px 10px #000;
@@ -111,7 +113,6 @@ ul {
   width: 150px;
   max-width: 100%;
 }
-
 .gallery .gallery-parent .box img {
   max-width: 100%;
   margin-bottom: 20px;
