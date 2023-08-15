@@ -8,22 +8,27 @@
   padding: 0;
   margin: 0;
 }
+
 :root {
   --section-padding: 20px;
 }
+
 body {
   font-family: 'Cairo', sans-serif;
-  background-color: #333333c2;
+  background-color: #f6f6f6;
 }
+
 ul {
   list-style: none;
 }
+
 .container {
   width: 500px;
   max-width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
+
 /* End Golbal Rules */
 /* Start Components */
 .main-heading {
@@ -32,6 +37,7 @@ ul {
   position: relative;
   cursor: pointer;
 }
+
 .main-heading::after {
   content: "";
   width: 50px;
@@ -47,23 +53,27 @@ ul {
   -o-transform: translateY(-50%);
   transition-duration: 0.5s;
 }
+
 .main-heading:hover::after {
   width: 70px;
   right: -90px;
 }
+
 /* End Components */
 .parent {
   width: 550px;
   max-width: 100%;
   margin: 20px auto;
   background-color: #FFF;
-  box-shadow: 0 0px 10px #000;
+  box-shadow: 0 0px 10px #DDD;
 }
+
 /* Start Category */
 .category {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
 }
+
 .category .container .category-list li {
   display: flex;
   flex-wrap: wrap;
@@ -72,6 +82,7 @@ ul {
   padding: 10px 0;
   position: relative;
 }
+
 .category .container .category-list li:not(:last-child):before {
   content: "";
   width: 100%;
@@ -81,9 +92,11 @@ ul {
   left: 0;
   background-color: #e7e7e7;
 }
+
 .category .container .category-list li p {
   color: #666;
 }
+
 .category .container .category-list li span {
   display: block;
   width: fit-content;
@@ -97,36 +110,43 @@ ul {
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
 }
+
 /* End Category */
 /* Start Gallery */
 .gallery {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
 }
+
 .gallery .gallery-parent {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
 }
+
 .gallery .gallery-parent .box {
   width: 150px;
   max-width: 100%;
 }
+
 .gallery .gallery-parent .box img {
   max-width: 100%;
   margin-bottom: 20px;
 }
+
 /* End Gallery */
 /* Start Archives */
 .archives {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
 }
+
 .archives .archives-list li {
   padding: 20px 0px;
   display: flex;
 }
+
 .archives .archives-list li::before {
   font-family: 'Font Awesome 5 Free';
   content: "\f07b";
@@ -137,8 +157,10 @@ ul {
   position: relative;
   top: 1px
 }
+
 .archives .archives-list li p {
   color: #666;
   font-weight: bold;
 }
+
 /* End Archives */
